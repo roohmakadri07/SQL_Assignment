@@ -135,7 +135,10 @@ ON o.salesman_id = s.salesman_id
 
 
 -- QUERY 07
-
+SELECT * 
+FROM orders 
+NATURAL JOIN customer  
+NATURAL JOIN salesman
 
 
 -- QUERY 08
